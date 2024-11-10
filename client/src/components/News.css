@@ -1,0 +1,86 @@
+.news {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center; /* Centers items vertically in the container */
+  align-items: center; /* Centers items horizontally */
+  flex-direction: column; /* Stacks items vertically */
+   /* Optional: Adjusts the height of the parent container for centering */
+}
+
+.news-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .news-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+  }
+  
+  .news-title {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .news-time {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .read-more-btn, .star-btn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .read-more-btn {
+    background-color: #4a90e2;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  .read-more-btn:hover {
+    background-color: #357abd;
+  }
+  
+  .star-btn {
+    background-color: #fff;
+    color: #4a90e2;
+    border: 1px solid #4a90e2;
+  }
+  
+  .star-btn.starred {
+    color: #ffcc00;
+    border-color: #ffcc00;
+  }
+  
+  .star-btn:hover {
+    background-color: #f0f8ff;
+  }
+  
+  .view-starred-btn {
+    background-color: #4a90e2;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .view-starred-btn:hover {
+    background-color: #357abd;
+  }
+  

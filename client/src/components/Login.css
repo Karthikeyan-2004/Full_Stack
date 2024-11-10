@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Honk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400..700&display=swap');
+.marquee-container {
+  background-color: #4a90e2;
+  color: #fff;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 1rem;
+  width: 90%;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 10px auto;
+  text-align: center;
+}
+
+
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f3f4f6;
+  font-family: Arial, sans-serif;
+}
+
+h4 {
+  font-family: 'Dancing Script', cursive;
+  font-weight: 1000;
+  font-size: 70px;
+  margin-bottom: 10px;
+  color: #4a90e2;
+}
+
+.login h2 {
+  font-size: 2rem;
+  color: #333;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 20px;
+}
+
+form {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  border-color: #4a90e2;
+  outline: none;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background-color: #4a90e2;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 15px;
+}
+
+button[type="submit"]:hover {
+  background-color: #357abd;
+}
+
+a {
+  display: block;
+  margin-top: 15px;
+  color: #4a90e2;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #357abd;
+}
+
+p {
+  margin-top: 15px;
+  font-size: 0.9rem;
+  color: #e63946;
+}
